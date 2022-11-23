@@ -1,0 +1,2 @@
+# mnotes
+Template for notes
