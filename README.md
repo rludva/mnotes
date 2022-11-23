@@ -16,7 +16,6 @@ Hints:
   - For example:
     - /var/git/<git-server>/<company>/<repository>
     - /var/git/github.com/example/repository-name
-  - On Windows you can use for example `C:\_GIT` but try to use a Unix-like system.  
 - I prefer sublime for my notes to not mix vscode or atom with this stuff.
 
 This repository is a collection of logical structure of the notes, tools that I use to manage it and basic principles that I try to follow to make it clean, agile and usable.
