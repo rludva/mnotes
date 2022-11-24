@@ -1,4 +1,4 @@
-#! /bin/bash -e
+#! /bin/bash
 
 #
 # Update `hotdog` file.
@@ -10,10 +10,10 @@
 # use your environment specific settings in (GNOME, i3, etc).
 #
 
-# ACTION REQUIRED: Update these variables with your local environemnt..
-MNOTES_REPOSITORY_NAME="mnotes"
-MNOTES_GIT_SERVER=""
-MNOTES_DIRECTORY="/var/git/$MNOTES_GIT_SERVER/$USER"
+#
+# Load Configuration files..
+MY_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
+. $MY_PATH/config.sh
 
 #
 # Basic checks..
