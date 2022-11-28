@@ -12,8 +12,8 @@
 
 #
 # Load Configuration files..
-MY_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
-. $MY_PATH/config.sh
+MY_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+. $MY_PATH/mnotes-config.sh
 
 #
 # Basic checks..
